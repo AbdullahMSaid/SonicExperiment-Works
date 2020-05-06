@@ -3,7 +3,10 @@
 
 <img src="https://raw.githubusercontent.com/AbdullahMSaid/SonicExperiment-Works/master/SonicExperiment/Assets.xcassets/cemas.imageset/cemas.jpg" alt="" />
 
-(Replace this image with the one for SonicExperiment)
+This was made ontop of code already developed by Thomas Watts of Cornell University. 
+
+
+(Replace this image with the one for SonicExperiment) 
 
 Sonic Experiment (Insert Stuff from the Slides)
 
