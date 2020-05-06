@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5505F21222B018FB00BC7D3F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21122B018FB00BC7D3F /* opencv2.framework */; };
+		5505F21222B018FB00BC7D3F /* Frameworks in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21122B018FB00BC7D3F /* Frameworks */; };
 		5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21322B0190900BC7D3F /* Accelerate.framework */; };
 		5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21722B0191700BC7D3F /* CoreGraphics.framework */; };
 		5505F21A22B0193500BC7D3F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21922B0193500BC7D3F /* CoreFoundation.framework */; };
@@ -19,10 +19,11 @@
 		5514588B22B005FB000108A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5514588922B005FB000108A7 /* Main.storyboard */; };
 		5514588D22B005FC000108A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5514588C22B005FC000108A7 /* Assets.xcassets */; };
 		5514589022B005FC000108A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5514588E22B005FC000108A7 /* LaunchScreen.storyboard */; };
-		55A7D5C222B40C4E00758D32 /* gausshighres.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A7D5C122B40C4E00758D32 /* gausshighres.png */; };
 		55A7D5CA22B9489100758D32 /* StrokeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */; };
+		C62D74B32424253A00ED083C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D74B22424253A00ED083C /* opencv2.framework */; };
 		C636081E23CD6FE700B928CB /* Pods_SonicExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */; };
 		C636082223CD79A400B928CB /* Pods_SonicExperiment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		C66EBD262434512800B43456 /* gausshighres.png in Resources */ = {isa = PBXBuildFile; fileRef = C66EBD252434512800B43456 /* gausshighres.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,7 +42,7 @@
 
 /* Begin PBXFileReference section */
 		42F2F5650405B040AD819766 /* Pods-SonicExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicExperiment.debug.xcconfig"; path = "Target Support Files/Pods-SonicExperiment/Pods-SonicExperiment.debug.xcconfig"; sourceTree = "<group>"; };
-		5505F21122B018FB00BC7D3F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		5505F21122B018FB00BC7D3F /* Frameworks */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Frameworks; sourceTree = "<group>"; };
 		5505F21322B0190900BC7D3F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
 		5505F21522B0190F00BC7D3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5505F21722B0191700BC7D3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +60,14 @@
 		5514588C22B005FC000108A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5514588F22B005FC000108A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5514589122B005FC000108A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		55A7D5C122B40C4E00758D32 /* gausshighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gausshighres.png; sourceTree = "<group>"; };
 		55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeGestureRecognizer.swift; sourceTree = "<group>"; };
 		911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonicExperiment.framework; path = "../../../../../../../../../Users/abdullahisaid/Library/Developer/Xcode/DerivedData/SonicExperiment-dsybvhwfkhkngrbqfamzncxcxbfj/Build/Products/Debug-iphoneos/Pods_SonicExperiment.framework"; sourceTree = SDKROOT; };
 		A1DAF7D9BFA82765A50C2BF5 /* Pods-SonicExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicExperiment.release.xcconfig"; path = "Target Support Files/Pods-SonicExperiment/Pods-SonicExperiment.release.xcconfig"; sourceTree = "<group>"; };
+		C62D74B02424248200ED083C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		C62D74B22424253A00ED083C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		C636081923CA6F5700B928CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SonicExperiment.framework; path = ../../../../../../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Pods_SonicExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C66EBD252434512800B43456 /* gausshighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gausshighres.png; path = "../../../Wallpaper /gausshighres.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +77,12 @@
 			files = (
 				C636081E23CD6FE700B928CB /* Pods_SonicExperiment.framework in Frameworks */,
 				5505F21E22B0194400BC7D3F /* CoreMedia.framework in Frameworks */,
+				C62D74B32424253A00ED083C /* opencv2.framework in Frameworks */,
 				5505F21C22B0193E00BC7D3F /* AssetsLibrary.framework in Frameworks */,
 				5505F21A22B0193500BC7D3F /* CoreFoundation.framework in Frameworks */,
 				5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */,
 				5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */,
-				5505F21222B018FB00BC7D3F /* opencv2.framework in Frameworks */,
+				5505F21222B018FB00BC7D3F /* Frameworks in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -109,7 +113,7 @@
 				5514588522B005FB000108A7 /* AppDelegate.swift */,
 				5514588722B005FB000108A7 /* ViewController.swift */,
 				55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */,
-				55A7D5C122B40C4E00758D32 /* gausshighres.png */,
+				C66EBD252434512800B43456 /* gausshighres.png */,
 				5514588922B005FB000108A7 /* Main.storyboard */,
 				5514588C22B005FC000108A7 /* Assets.xcassets */,
 				5514588E22B005FC000108A7 /* LaunchScreen.storyboard */,
@@ -135,6 +139,8 @@
 		E9E9F017EE69AE31EC236854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C62D74B02424248200ED083C /* opencv2.framework */,
+				C62D74B22424253A00ED083C /* opencv2.framework */,
 				C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */,
 				5505F21D22B0194400BC7D3F /* CoreMedia.framework */,
 				5505F21B22B0193E00BC7D3F /* AssetsLibrary.framework */,
@@ -143,7 +149,7 @@
 				5505F21522B0190F00BC7D3F /* Foundation.framework */,
 				5505F21322B0190900BC7D3F /* Accelerate.framework */,
 				911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */,
-				5505F21122B018FB00BC7D3F /* opencv2.framework */,
+				5505F21122B018FB00BC7D3F /* Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -209,7 +215,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55A7D5C222B40C4E00758D32 /* gausshighres.png in Resources */,
+				C66EBD262434512800B43456 /* gausshighres.png in Resources */,
 				5514589022B005FC000108A7 /* LaunchScreen.storyboard in Resources */,
 				5514588D22B005FC000108A7 /* Assets.xcassets in Resources */,
 				5514588B22B005FB000108A7 /* Main.storyboard in Resources */,
@@ -328,7 +334,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -383,7 +389,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
