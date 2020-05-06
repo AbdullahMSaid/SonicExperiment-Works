@@ -1,0 +1,481 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5505F21222B018FB00BC7D3F /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21122B018FB00BC7D3F /* opencv2.framework */; };
+		5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21322B0190900BC7D3F /* Accelerate.framework */; };
+		5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21722B0191700BC7D3F /* CoreGraphics.framework */; };
+		5505F21A22B0193500BC7D3F /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21922B0193500BC7D3F /* CoreFoundation.framework */; };
+		5505F21C22B0193E00BC7D3F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21B22B0193E00BC7D3F /* AssetsLibrary.framework */; };
+		5505F21E22B0194400BC7D3F /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21D22B0194400BC7D3F /* CoreMedia.framework */; };
+		5505F22222B0197100BC7D3F /* OpenCVWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5505F22122B0197100BC7D3F /* OpenCVWrapper.mm */; };
+		5514588622B005FB000108A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514588522B005FB000108A7 /* AppDelegate.swift */; };
+		5514588822B005FB000108A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5514588722B005FB000108A7 /* ViewController.swift */; };
+		5514588B22B005FB000108A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5514588922B005FB000108A7 /* Main.storyboard */; };
+		5514588D22B005FC000108A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5514588C22B005FC000108A7 /* Assets.xcassets */; };
+		5514589022B005FC000108A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5514588E22B005FC000108A7 /* LaunchScreen.storyboard */; };
+		55A7D5C222B40C4E00758D32 /* gausshighres.png in Resources */ = {isa = PBXBuildFile; fileRef = 55A7D5C122B40C4E00758D32 /* gausshighres.png */; };
+		55A7D5CA22B9489100758D32 /* StrokeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */; };
+		C636081E23CD6FE700B928CB /* Pods_SonicExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */; };
+		C636082223CD79A400B928CB /* Pods_SonicExperiment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C636081C23CD6EF500B928CB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				C636082223CD79A400B928CB /* Pods_SonicExperiment.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		42F2F5650405B040AD819766 /* Pods-SonicExperiment.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicExperiment.debug.xcconfig"; path = "Target Support Files/Pods-SonicExperiment/Pods-SonicExperiment.debug.xcconfig"; sourceTree = "<group>"; };
+		5505F21122B018FB00BC7D3F /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
+		5505F21322B0190900BC7D3F /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		5505F21522B0190F00BC7D3F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5505F21722B0191700BC7D3F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5505F21922B0193500BC7D3F /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		5505F21B22B0193E00BC7D3F /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		5505F21D22B0194400BC7D3F /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		5505F21F22B0197000BC7D3F /* SonicExperiment-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SonicExperiment-Bridging-Header.h"; sourceTree = "<group>"; };
+		5505F22022B0197100BC7D3F /* OpenCVWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OpenCVWrapper.h; sourceTree = "<group>"; };
+		5505F22122B0197100BC7D3F /* OpenCVWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = OpenCVWrapper.mm; sourceTree = "<group>"; };
+		5505F22322B019A600BC7D3F /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		5514588222B005FB000108A7 /* SonicExperiment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SonicExperiment.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5514588522B005FB000108A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5514588722B005FB000108A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5514588A22B005FB000108A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5514588C22B005FC000108A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5514588F22B005FC000108A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5514589122B005FC000108A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55A7D5C122B40C4E00758D32 /* gausshighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gausshighres.png; sourceTree = "<group>"; };
+		55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeGestureRecognizer.swift; sourceTree = "<group>"; };
+		911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonicExperiment.framework; path = "../../../../../../../../../Users/abdullahisaid/Library/Developer/Xcode/DerivedData/SonicExperiment-dsybvhwfkhkngrbqfamzncxcxbfj/Build/Products/Debug-iphoneos/Pods_SonicExperiment.framework"; sourceTree = SDKROOT; };
+		A1DAF7D9BFA82765A50C2BF5 /* Pods-SonicExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicExperiment.release.xcconfig"; path = "Target Support Files/Pods-SonicExperiment/Pods-SonicExperiment.release.xcconfig"; sourceTree = "<group>"; };
+		C636081923CA6F5700B928CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SonicExperiment.framework; path = ../../../../../../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Pods_SonicExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5514587F22B005FB000108A7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C636081E23CD6FE700B928CB /* Pods_SonicExperiment.framework in Frameworks */,
+				5505F21E22B0194400BC7D3F /* CoreMedia.framework in Frameworks */,
+				5505F21C22B0193E00BC7D3F /* AssetsLibrary.framework in Frameworks */,
+				5505F21A22B0193500BC7D3F /* CoreFoundation.framework in Frameworks */,
+				5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */,
+				5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */,
+				5505F21222B018FB00BC7D3F /* opencv2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5514587922B005FB000108A7 = {
+			isa = PBXGroup;
+			children = (
+				5514588422B005FB000108A7 /* SonicExperiment */,
+				5514588322B005FB000108A7 /* Products */,
+				9A4A9DBE48418F7739A4042F /* Pods */,
+				E9E9F017EE69AE31EC236854 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5514588322B005FB000108A7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5514588222B005FB000108A7 /* SonicExperiment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5514588422B005FB000108A7 /* SonicExperiment */ = {
+			isa = PBXGroup;
+			children = (
+				5514588522B005FB000108A7 /* AppDelegate.swift */,
+				5514588722B005FB000108A7 /* ViewController.swift */,
+				55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */,
+				55A7D5C122B40C4E00758D32 /* gausshighres.png */,
+				5514588922B005FB000108A7 /* Main.storyboard */,
+				5514588C22B005FC000108A7 /* Assets.xcassets */,
+				5514588E22B005FC000108A7 /* LaunchScreen.storyboard */,
+				5514589122B005FC000108A7 /* Info.plist */,
+				5505F22022B0197100BC7D3F /* OpenCVWrapper.h */,
+				5505F22122B0197100BC7D3F /* OpenCVWrapper.mm */,
+				5505F22322B019A600BC7D3F /* PrefixHeader.pch */,
+				C636081923CA6F5700B928CB /* PrefixHeader.pch */,
+				5505F21F22B0197000BC7D3F /* SonicExperiment-Bridging-Header.h */,
+			);
+			path = SonicExperiment;
+			sourceTree = "<group>";
+		};
+		9A4A9DBE48418F7739A4042F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42F2F5650405B040AD819766 /* Pods-SonicExperiment.debug.xcconfig */,
+				A1DAF7D9BFA82765A50C2BF5 /* Pods-SonicExperiment.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9E9F017EE69AE31EC236854 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */,
+				5505F21D22B0194400BC7D3F /* CoreMedia.framework */,
+				5505F21B22B0193E00BC7D3F /* AssetsLibrary.framework */,
+				5505F21922B0193500BC7D3F /* CoreFoundation.framework */,
+				5505F21722B0191700BC7D3F /* CoreGraphics.framework */,
+				5505F21522B0190F00BC7D3F /* Foundation.framework */,
+				5505F21322B0190900BC7D3F /* Accelerate.framework */,
+				911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */,
+				5505F21122B018FB00BC7D3F /* opencv2.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5514588122B005FB000108A7 /* SonicExperiment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5514589422B005FC000108A7 /* Build configuration list for PBXNativeTarget "SonicExperiment" */;
+			buildPhases = (
+				3CA24FB1162EF082C97F0C94 /* [CP] Check Pods Manifest.lock */,
+				5514587E22B005FB000108A7 /* Sources */,
+				5514587F22B005FB000108A7 /* Frameworks */,
+				5514588022B005FB000108A7 /* Resources */,
+				C636081C23CD6EF500B928CB /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SonicExperiment;
+			productName = SonicExperiment;
+			productReference = 5514588222B005FB000108A7 /* SonicExperiment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5514587A22B005FB000108A7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Abdullahi Said ";
+				TargetAttributes = {
+					5514588122B005FB000108A7 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+					};
+				};
+			};
+			buildConfigurationList = 5514587D22B005FB000108A7 /* Build configuration list for PBXProject "SonicExperiment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5514587922B005FB000108A7;
+			productRefGroup = 5514588322B005FB000108A7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5514588122B005FB000108A7 /* SonicExperiment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5514588022B005FB000108A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55A7D5C222B40C4E00758D32 /* gausshighres.png in Resources */,
+				5514589022B005FC000108A7 /* LaunchScreen.storyboard in Resources */,
+				5514588D22B005FC000108A7 /* Assets.xcassets in Resources */,
+				5514588B22B005FB000108A7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3CA24FB1162EF082C97F0C94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SonicExperiment-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5514587E22B005FB000108A7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5514588822B005FB000108A7 /* ViewController.swift in Sources */,
+				5514588622B005FB000108A7 /* AppDelegate.swift in Sources */,
+				5505F22222B0197100BC7D3F /* OpenCVWrapper.mm in Sources */,
+				55A7D5CA22B9489100758D32 /* StrokeGestureRecognizer.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5514588922B005FB000108A7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5514588A22B005FB000108A7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5514588E22B005FC000108A7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5514588F22B005FC000108A7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5514589222B005FC000108A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5514589322B005FC000108A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5514589522B005FC000108A7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42F2F5650405B040AD819766 /* Pods-SonicExperiment.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72667U4DUZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = /Users/abdullahisaid/Desktop/Work_Stuff/SonicExperiment/SonicExperiment/PrefixHeader.pch;
+				INFOPLIST_FILE = SonicExperiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahisaid.SonicExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SonicExperiment/SonicExperiment-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		5514589622B005FC000108A7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A1DAF7D9BFA82765A50C2BF5 /* Pods-SonicExperiment.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 72667U4DUZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				GCC_PREFIX_HEADER = /Users/abdullahisaid/Desktop/Work_Stuff/SonicExperiment/SonicExperiment/PrefixHeader.pch;
+				INFOPLIST_FILE = SonicExperiment/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.abdullahisaid.SonicExperiment;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SonicExperiment/SonicExperiment-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5514587D22B005FB000108A7 /* Build configuration list for PBXProject "SonicExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5514589222B005FC000108A7 /* Debug */,
+				5514589322B005FC000108A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5514589422B005FC000108A7 /* Build configuration list for PBXNativeTarget "SonicExperiment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5514589522B005FC000108A7 /* Debug */,
+				5514589622B005FC000108A7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5514587A22B005FB000108A7 /* Project object */;
+}
