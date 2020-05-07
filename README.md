@@ -1,6 +1,7 @@
 
-<kbd><img src="https://raw.githubusercontent.com/AbdullahMSaid/SonicExperiment-Works/master/Photos%20for%20Sonic%20Project/Screen%20Shot%202020-05-06%20at%2011.24.18%20PM.png" alt="" width="400" style="border: 1px solid black" align="center"/><kbd>
-
+<p align="center">
+<kbd><img src="https://raw.githubusercontent.com/AbdullahMSaid/SonicExperiment-Works/master/Photos%20for%20Sonic%20Project/Screen%20Shot%202020-05-06%20at%2011.24.18%20PM.png" alt="" width="400" style="border: 1px solid black" align="center"/>
+ </p>
 
 [![Platform](https://img.shields.io/cocoapods/p/SnapKit.svg?style=flat)](https://github.com/SnapKit/SnapKit)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SnapKit.svg)](https://cocoapods.org/pods/SnapKit)
@@ -8,6 +9,8 @@
 
 
 ## Contents
+ 
+ 
 
 - [Requirements](#requirements)
 - [Introduction](#Introduction)
@@ -55,6 +58,7 @@ Files to look at before beginning this project
 [Sonic Intial Code Guideline](https://github.com/AbdullahMSaid/SonicExperiment-Works/blob/master/SonicAtomic%20Code%20Guide.pdf)
 
 ##### Zip File of Working Sonic Frameworks 
+
 
 [Files with all the Necessary Code together](https://osu.box.com/s/7w6yjrapfp2idhzv91hc5kgf70u6rzqw)
 
