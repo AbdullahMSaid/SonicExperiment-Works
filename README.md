@@ -1,6 +1,6 @@
 
 
-<img src="https://raw.githubusercontent.com/AbdullahMSaid/SonicExperiment-Works/master/Photos%20for%20Sonic%20Project/Screen%20Shot%202020-05-06%20at%2011.24.18%20PM.png" alt="" width="400" style="border: 1px solid black"/>
+<img src="https://raw.githubusercontent.com/AbdullahMSaid/SonicExperiment-Works/master/Photos%20for%20Sonic%20Project/Screen%20Shot%202020-05-06%20at%2011.24.18%20PM.png" alt="" width="400" style="border: 1px solid black" align="center"/>
 
 [![Platform](https://img.shields.io/cocoapods/p/SnapKit.svg?style=flat)](https://github.com/SnapKit/SnapKit)
 [![Cocoapods Compatible](https://img.shields.io/cocoapods/v/SnapKit.svg)](https://cocoapods.org/pods/SnapKit)
