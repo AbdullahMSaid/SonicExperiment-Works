@@ -29,6 +29,10 @@ Files to look at before beginning this project
 
 ## Requirements
 
+<p align="center">
+<img src="https://support.apple.com/library/content/dam/edam/applecare/images/en_US/iOS/ios13-ipad-pro-apple-pencil-connect.jpg" alt="" width="400" style="border: 1px solid black" align="center"/>
+ </p>
+ 
 - iOS 10.0+ / Mac OS X 10.12+ 
 - iPad 12.9-inch with Apple Pencil
 - Xcode 10.0+
