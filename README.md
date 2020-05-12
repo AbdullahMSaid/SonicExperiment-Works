@@ -20,7 +20,7 @@
 - [Communication](#communication)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Code Explanation](#code explanation)
+- [Code-Explanation](#code-explanation)
 - [License](#license)
 
 ## Introduction
@@ -149,7 +149,7 @@ You can try SnapKit in Playground.
 - [Documentation](http://snapkit.io/docs/)
 - [F.A.Q.](http://snapkit.io/faq/)
 
-# Code Explanation 
+## Code-Explanation 
 
 ### Initial File Set up 
 
