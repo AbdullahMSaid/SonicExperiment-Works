@@ -24,6 +24,7 @@
 		C62D74B32424253A00ED083C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D74B22424253A00ED083C /* opencv2.framework */; };
 		C636081E23CD6FE700B928CB /* Pods_SonicExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */; };
 		C66EBD262434512800B43456 /* gausshighres.png in Resources */ = {isa = PBXBuildFile; fileRef = C66EBD252434512800B43456 /* gausshighres.png */; };
+		C6C397192475279B0016D264 /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6C397182475279B0016D264 /* opencv2.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -63,11 +64,11 @@
 		746DC9BBAF98BEB42359523A /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonicExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonicExperiment.framework; path = "../../../../../../../../../Users/abdullahisaid/Library/Developer/Xcode/DerivedData/SonicExperiment-dsybvhwfkhkngrbqfamzncxcxbfj/Build/Products/Debug-iphoneos/Pods_SonicExperiment.framework"; sourceTree = SDKROOT; };
 		A1DAF7D9BFA82765A50C2BF5 /* Pods-SonicExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicExperiment.release.xcconfig"; path = "Target Support Files/Pods-SonicExperiment/Pods-SonicExperiment.release.xcconfig"; sourceTree = "<group>"; };
-		C62D74B02424248200ED083C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		C62D74B22424253A00ED083C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		C636081923CA6F5700B928CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SonicExperiment.framework; path = ../../../../../../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Pods_SonicExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C66EBD252434512800B43456 /* gausshighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gausshighres.png; sourceTree = "<group>"; };
+		C6C397182475279B0016D264 /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */,
 				5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */,
 				5505F21222B018FB00BC7D3F /* Frameworks in Frameworks */,
+				C6C397192475279B0016D264 /* opencv2.framework in Frameworks */,
 				5318AB17EC3AF37F21E624DB /* Pods_SonicExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -140,8 +142,8 @@
 		E9E9F017EE69AE31EC236854 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C62D74B02424248200ED083C /* opencv2.framework */,
 				C62D74B22424253A00ED083C /* opencv2.framework */,
+				C6C397182475279B0016D264 /* opencv2.framework */,
 				C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */,
 				5505F21D22B0194400BC7D3F /* CoreMedia.framework */,
 				5505F21B22B0193E00BC7D3F /* AssetsLibrary.framework */,
