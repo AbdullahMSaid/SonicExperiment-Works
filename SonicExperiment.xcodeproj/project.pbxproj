@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5318AB17EC3AF37F21E624DB /* Pods_SonicExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 746DC9BBAF98BEB42359523A /* Pods_SonicExperiment.framework */; };
 		5505F21222B018FB00BC7D3F /* Frameworks in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21122B018FB00BC7D3F /* Frameworks */; };
 		5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21322B0190900BC7D3F /* Accelerate.framework */; };
 		5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5505F21722B0191700BC7D3F /* CoreGraphics.framework */; };
@@ -22,7 +23,6 @@
 		55A7D5CA22B9489100758D32 /* StrokeGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */; };
 		C62D74B32424253A00ED083C /* opencv2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C62D74B22424253A00ED083C /* opencv2.framework */; };
 		C636081E23CD6FE700B928CB /* Pods_SonicExperiment.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */; };
-		C636082223CD79A400B928CB /* Pods_SonicExperiment.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		C66EBD262434512800B43456 /* gausshighres.png in Resources */ = {isa = PBXBuildFile; fileRef = C66EBD252434512800B43456 /* gausshighres.png */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +33,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				C636082223CD79A400B928CB /* Pods_SonicExperiment.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -61,13 +60,14 @@
 		5514588F22B005FC000108A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5514589122B005FC000108A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		55A7D5C922B9489100758D32 /* StrokeGestureRecognizer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrokeGestureRecognizer.swift; sourceTree = "<group>"; };
+		746DC9BBAF98BEB42359523A /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SonicExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SonicExperiment.framework; path = "../../../../../../../../../Users/abdullahisaid/Library/Developer/Xcode/DerivedData/SonicExperiment-dsybvhwfkhkngrbqfamzncxcxbfj/Build/Products/Debug-iphoneos/Pods_SonicExperiment.framework"; sourceTree = SDKROOT; };
 		A1DAF7D9BFA82765A50C2BF5 /* Pods-SonicExperiment.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SonicExperiment.release.xcconfig"; path = "Target Support Files/Pods-SonicExperiment/Pods-SonicExperiment.release.xcconfig"; sourceTree = "<group>"; };
 		C62D74B02424248200ED083C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		C62D74B22424253A00ED083C /* opencv2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = opencv2.framework; sourceTree = "<group>"; };
 		C636081923CA6F5700B928CB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		C636081D23CD6FE700B928CB /* Pods_SonicExperiment.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Pods_SonicExperiment.framework; path = ../../../../../../../../../../Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS13.2.sdk/System/Library/Frameworks/Pods_SonicExperiment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C66EBD252434512800B43456 /* gausshighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = gausshighres.png; path = "../../../Wallpaper /gausshighres.png"; sourceTree = "<group>"; };
+		C66EBD252434512800B43456 /* gausshighres.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gausshighres.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +83,7 @@
 				5505F21822B0191700BC7D3F /* CoreGraphics.framework in Frameworks */,
 				5505F21422B0190900BC7D3F /* Accelerate.framework in Frameworks */,
 				5505F21222B018FB00BC7D3F /* Frameworks in Frameworks */,
+				5318AB17EC3AF37F21E624DB /* Pods_SonicExperiment.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +151,7 @@
 				5505F21322B0190900BC7D3F /* Accelerate.framework */,
 				911E195D2D63EDAA90C90C70 /* Pods_SonicExperiment.framework */,
 				5505F21122B018FB00BC7D3F /* Frameworks */,
+				746DC9BBAF98BEB42359523A /* Pods_SonicExperiment.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -414,7 +416,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = /Users/abdullahisaid/Desktop/Work_Stuff/SonicExperiment/SonicExperiment/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = SonicExperiment/PrefixHeader.pch;
 				INFOPLIST_FILE = SonicExperiment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -445,7 +447,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				GCC_PREFIX_HEADER = /Users/abdullahisaid/Desktop/Work_Stuff/SonicExperiment/SonicExperiment/PrefixHeader.pch;
+				GCC_PREFIX_HEADER = SonicExperiment/PrefixHeader.pch;
 				INFOPLIST_FILE = SonicExperiment/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
